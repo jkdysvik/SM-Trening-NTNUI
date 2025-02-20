@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Geist';
+  src: url('https://assets.vercel.com/image/upload/fonts/geist/GeistVariableVF.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+
+
+:root {
+    --background: #f9f9f9;
+    --text-primary: #222;
+    --text-secondary: #555;
+    --accent: #000;
+    --border: rgba(0, 0, 0, 0.1);
+    --shadow: rgba(0, 0, 0, 0.15);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geist', sans-serif;
+}
+
+body {
+    background: var(--background);
+    color: var(--text-primary);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Utility */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px var(--shadow);
+    border-radius: 10px;
+}

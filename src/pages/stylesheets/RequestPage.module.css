@@ -1,0 +1,86 @@
+.requestsContainer {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.requestsTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.loadingText {
+    font-size: 16px;
+    color: #333;
+}
+
+.errorMessage {
+    color: red;
+    font-weight: 500;
+}
+
+.noRequests {
+    color: #555;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.requestsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-left: 0%;
+}
+
+.requestsTable th,
+.requestsTable td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.requestsTable th {
+    background: #000;
+    color: white;
+    font-weight: 600;
+}
+
+.requestsTable tr:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.requestsTable td {
+    font-size: 16px;
+}
+
+/* ✅ Styling for delete button */
+.deleteButton {
+    background: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.deleteButton:hover {
+    background: darkred;
+}
+.orangeText {
+  color: orange;
+}
+
+.greenText {
+  color: green;
+}
+
+.redText {
+  color: red;
+}

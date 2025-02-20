@@ -1,0 +1,84 @@
+.requestForm {
+    margin-top: 15px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px var(--shadow);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid var(--border);
+}
+
+.requestInput {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.requestButton {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.requestButton:hover {
+    background: var(--text-secondary);
+}
+
+/* ✅ Pop-Up Modal */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px var(--shadow);
+    max-width: 400px;
+    width: 90%;
+}
+
+.modalContent h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.modalContent p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.modalButton {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.modalButton:hover {
+    background: var(--text-secondary);
+}
